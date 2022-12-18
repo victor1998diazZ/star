@@ -1,52 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "./main.css";
 
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Barlow Condensed", sans-serif;
-}
-.container {
-    max-width: 1300px;
-    width: 90%;
-    margin: 0 auto;
-}
-header {
-    min-height: 100vh;
-    background-color: #74c69d;
-    color: #ffffff;
-    margin-bottom: 60px;
-}
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 90px;
-    align-items: center;
-    padding: 50px 0;
-}
-nav img {
-    display: none;
-}
-nav ul {
-    display: flex;
-}
-ul li {
-    list-style: none;
-    margin-right: 30px;
-}
-li a {
-    text-decoration: none;
-    color: #ffffff;
-}
 .welcome {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "area1 area2";
     align-items: center;
+    padding-bottom: 100px;
 }
-.welcome_content{
+.welcome_content {
     grid-area: area1;
 }
 .welcome_content--presentation {
@@ -72,24 +33,24 @@ li a {
     border-radius: 5px;
     cursor: pointer;
 }
-.welcome_img{
+.welcome_img {
     grid-area: area2;
 }
-.welcome_img img{
+.welcome_img img {
     width: 100%;
 }
-.partners_content--title{
+.partners_content--title {
     color: #95ffd8;
     text-align: center;
     margin-bottom: 16px;
 }
-.partners_content--subtitle{
+.partners_content--subtitle {
     color: #072b4b;
     font-size: 2em;
     text-align: center;
     margin-bottom: 16px;
 }
-.partners_content--description{
+.partners_content--description {
     text-align: center;
     max-width: 230px;
     width: 100%;
@@ -97,7 +58,7 @@ li a {
     font-size: 1em;
     margin-bottom: 55px;
 }
-.partners_conetent--companies{
+.partners_conetent--companies {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: center;
@@ -105,159 +66,137 @@ li a {
     gap: 20px;
     margin-bottom: 55px;
 }
-.partners{
+.partners {
     margin-bottom: 100px;
 }
-.partnets_content--learn{
+.partnets_content--learn {
     display: flex;
     justify-content: center;
 }
-.partnets_content--learn button{
+.partnets_content--learn button {
     width: 142px;
-    background-color: #212529 ;
+    background-color: #212529;
     color: #ffffff;
     margin: 0 auto;
     padding: 10px 0;
     margin-bottom: 73px;
     cursor: pointer;
 }
-.partnets_content--whatDo-message{
+.partnets_content--whatDo-message {
     margin-bottom: 73px;
 }
-.partnets_content--whatDo-message{
+.partnets_content--whatDo-message {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 90px;
     align-items: center;
 }
-.partnets_content--whatDo-message img{
+.partnets_content--whatDo-message img {
     width: 100%;
 }
-.partnets_content--whatDo-message-content--title{
+.partnets_content--whatDo-message-content--title {
     font-size: 2em;
     max-width: 400px;
     width: 100%;
     margin-bottom: 16px;
 }
-.partnets_content--whatDo-message-content--desc{
+.partnets_content--whatDo-message-content--desc {
     max-width: 349px;
     width: 100%;
     color: #b0b2b2;
     margin-bottom: 16px;
 }
-.partnets_content--whatDo-message-content button{
+.partnets_content--whatDo-message-content button {
     width: 142px;
-    background-color: #212529 ;
+    background-color: #212529;
     color: #ffffff;
     padding: 10px 0;
     margin-bottom: 73px;
     cursor: pointer;
 }
-.partnets_content--whatDo-work{
+.partnets_content--whatDo-work {
     display: grid;
     grid-template-areas: "area1 area2";
     align-items: center;
 }
-.partnets_content--whatDo-work-content{
+.partnets_content--whatDo-work-content {
     grid-area: area1;
 }
-.partnets_content--whatDo-work-content--title{
+.partnets_content--whatDo-work-content--title {
     font-size: 2em;
     max-width: 400px;
     width: 100%;
     margin-bottom: 16px;
 }
-.partnets_content--whatDo-work-content--desc{
+.partnets_content--whatDo-work-content--desc {
     max-width: 349px;
     width: 100%;
     color: #b0b2b2;
-    margin-bottom: 16px;   
-}
-.partnets_content--whatDo-work-content button{
-    width: 142px;
-    background-color: #212529 ;
-    color: #ffffff;
-    padding: 10px 0;
-    cursor: pointer;
-}
-.partnets_content--whatDo-work img{
-    grid-area: area2;
-    width: 100%;
-}
-.team{
-    margin-bottom: 103px;
-}
-.team_content--title{
-    color: #95ffd8;
-    text-align: center;
-    margin-bottom: 16px;   
-}
-.team_content--subtitle{
-    color: #072b4b;
-    font-size: 2em;
-    text-align: center;
     margin-bottom: 16px;
 }
-.team_content--description{
-        text-align: center;
-        max-width: 230px;
-        width: 100%;
-        margin: 0 auto;
-        font-size: 1em;
-        margin-bottom: 55px;
-}   
-.team_content--ourTeam{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(175px,1fr));
-    gap: 30px;
-    justify-items: center;
-}
-.team_content--ourTeam-member{
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 0 6px gray;
-    margin-bottom: 93px;
-}
-.team_content--ourTeam-member img{
-    margin-bottom: 19px;
-}
-.team_content--ourTeam-member p{
-    color: gray;
-}
-.team_content--ourTeam-member-content--title{
-    font-size: 1em;
-    font-weight: bold;
-    margin-bottom: 17px;
-}
-.team_content--viewTeam{
-    text-align: center;
-}
-.team_content--viewTeam button{
+.partnets_content--whatDo-work-content button {
     width: 142px;
     background-color: #212529;
     color: #ffffff;
     padding: 10px 0;
     cursor: pointer;
 }
-footer{
-    background-color: #74c69d;
-    padding: 30px;
+.partnets_content--whatDo-work img {
+    grid-area: area2;
+    width: 100%;
 }
-.footer_content{
+.team {
+    margin-bottom: 103px;
+}
+.team_content--title {
+    color: #95ffd8;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.team_content--subtitle {
+    color: #072b4b;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.team_content--description {
+    text-align: center;
+    max-width: 230px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+    margin-bottom: 55px;
+}
+.team_content--ourTeam {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    gap: 30px;
+    justify-items: center;
 }
-.footer_content--logo{
-    display: flex;
-    flex-wrap: wrap;
+.team_content--ourTeam-member {
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 6px gray;
+    margin-bottom: 93px;
 }
-.footer_content--logo img{
-    margin-right: 20px;
+.team_content--ourTeam-member img {
+    margin-bottom: 19px;
 }
-.footer_content--logo img:last-child{
-    margin-right: 0;
+.team_content--ourTeam-member p {
+    color: gray;
 }
-.footer_content p{
-    justify-self: end;
-    color: white;
+.team_content--ourTeam-member-content--title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.team_content--viewTeam {
+    text-align: center;
+}
+.team_content--viewTeam button {
+    width: 142px;
+    background-color: #212529;
+    color: #ffffff;
+    padding: 10px 0;
+    cursor: pointer;
 }
