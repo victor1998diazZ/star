@@ -1,0 +1,45 @@
+@media (max-width: 1000px) {
+    .welcome{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "area2"
+            "area1";
+    }
+    .welcome_content{
+        margin-bottom: 30px;
+    }
+    .welcome_img {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 750px) {
+    .partnets_content--whatDo-message{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .partnets_content--whatDo-work{
+        display: grid;
+        grid-template-areas: 
+        "area1"
+        "area2";
+    }
+    .partnets_content--whatDo-work img{
+        margin-bottom: 30px;
+        grid-area: area1;
+    }
+    .partnets_content--whatDo-work-content{
+        grid-area: area2;
+    }
+}
+@media (max-width: 570px) {
+    nav ul{
+        display: none;
+    }
+    nav img{
+        display: block;
+        cursor: pointer;
+    }
+    .partners_conetent--companies{
+        
+    }
+}
