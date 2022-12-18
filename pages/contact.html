@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/portfolio.css">
-    <title>Portfolio</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/contact.css">
   </head>
   <body> 
     <header>
@@ -23,15 +23,30 @@
         </div>
       </div>
     </header>
-    <div class="works"> 
+    <div class="contact"> 
       <div class="container"> 
-        <div class="works_content"> 
-          <p class="works_content--title">WORKS </p>
-          <p class="works_content--subTitle">Portfolio</p>
-          <p class="works_content--desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          <div class="works_list"><img src="/img/portfolio/1.svg" alt=""><img src="/img/portfolio/2.svg" alt=""><img src="/img/portfolio/3.png" alt=""><img src="/img/portfolio/4.svg" alt=""><img src="/img/portfolio/5.svg" alt=""><img src="/img/portfolio/6.svg" alt=""><img src="/img/portfolio/7.svg" alt=""><img src="/img/portfolio/8.png" alt=""></div>
-          <div class="works_button"> 
-            <button>Learn More</button>
+        <div class="contact_content"> 
+          <h1 class="contact_content--title">Contact Us</h1>
+          <p class="contact_content--desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <div class="contact_content--form"> 
+            <form action="/contact" method="POST">
+              <div class="form_group"> 
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form_group"> 
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form_group"> 
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+              </div>
+              <div class="form_group"> 
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+            <div class="contact_content--form-map"><img src="/img/map.png" alt="Map"></div>
           </div>
         </div>
       </div>
