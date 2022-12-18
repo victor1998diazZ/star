@@ -184,6 +184,9 @@ li a {
     grid-area: area2;
     width: 100%;
 }
+.team{
+    margin-bottom: 103px;
+}
 .team_content--title{
     color: #95ffd8;
     text-align: center;
@@ -235,4 +238,26 @@ li a {
     color: #ffffff;
     padding: 10px 0;
     cursor: pointer;
+}
+footer{
+    background-color: #74c69d;
+    padding: 30px;
+}
+.footer_content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.footer_content--logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_content--logo img{
+    margin-right: 20px;
+}
+.footer_content--logo img:last-child{
+    margin-right: 0;
+}
+.footer_content p{
+    justify-self: end;
+    color: white;
 }
