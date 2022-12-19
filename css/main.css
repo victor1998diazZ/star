@@ -62,3 +62,29 @@ footer {
     justify-self: end;
     color: white;
 }
+
+/* Medias Qry */
+
+@media (max-width: 570px) {
+    nav ul{
+        display: none;
+    }
+    nav img{
+        display: block;
+        cursor: pointer;
+    }
+}
+/* Footer */
+
+@media (max-width: 630px) {
+    .footer_content{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .footer_content--logo img{
+       margin-bottom: 10px;
+    }
+    .footer_content p{
+        justify-self: auto;
+    }
+}

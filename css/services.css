@@ -1,0 +1,82 @@
+@import "main.css";
+
+.services_content--title{
+    color: #74c69d;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 1.200em;
+}
+.services_content--subtitle{
+    color: #072b4b;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.services_content--desc{
+    text-align: center;
+    max-width: 230px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+    margin-bottom: 78px;
+}
+.services_content--prices{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 68px;
+    justify-items: center;
+}
+.services_content--prices--item{
+    max-width: 339px;
+    width: 100%;
+    box-shadow: 0 0 9px gray;
+    padding: 46px 30px;
+}
+.services_content--prices--item--type{
+    font-size: 0.80em;
+    text-align: center;
+}
+.services_content--prices--item--price{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 9px;
+}
+.services_content--prices--item--price span{
+    color: gray;
+    font-size: 0.80em;
+}
+.services_content--prices--item--desc{
+    max-width: 219px;
+    width: 100%;
+    color: grey;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 57px;
+}
+.services_content--prices--item ul {
+    margin-bottom: 45px;
+}
+.services_content--prices--item ul li{
+    padding: 11px 30px;
+    text-align: center;
+    list-style-image: url(../img/icons/ul.png);
+    list-style-position: inside;
+}
+button{
+    background-color: #212529;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width: 1212px) {
+    .services_content--prices{
+        grid-template-columns: 1fr;
+    }
+    .services_content--prices--item{
+        margin-bottom: 50px;
+    }
+}

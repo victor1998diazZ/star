@@ -1,0 +1,23 @@
+@import "main.css";
+
+h1 ,.contact_content--title{
+    text-align: center;
+    font-size: 2.200em;
+    margin-bottom: 16px;
+}
+.contact_content--desc{
+    margin: 0 auto;    
+}
+p ,.contact_content--desc{
+    font-size: 1.400em;
+    text-align: center;
+    max-width: 389px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+.contact_content--form{
+    display: grid;
+    grid-template-areas: "area1 area2";
+    align-items: center;
+    margin-bottom: 93px;
+}
