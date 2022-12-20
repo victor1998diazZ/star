@@ -39,7 +39,7 @@ form{
     flex-direction: column;
     max-width: 575px;
     width: 100%;
-    padding: 10px 0;
+    padding: 5px;
     background-color: #eeeeee;
     margin-bottom: 21px;
 }
@@ -51,6 +51,7 @@ form{
     height: 100px;
     background-color: #eeeeee;
     resize: none;
+    padding: 5px;
     margin-bottom: 21px;
 }
 .form_group input:first-child{
